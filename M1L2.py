@@ -4,8 +4,7 @@ elementi = "+-/*!&$#?=@<>abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234
 
 lunghezza = int(input("inserire la lunghezza"))
 
-password_autogenerata = ""
-
+password_autogenerata = ("")        
 
 for i in range(lunghezza):
     carattere_casuale = random.choice(elementi)
